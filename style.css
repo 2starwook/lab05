@@ -1,0 +1,7 @@
+a {
+  background-color: aqua;
+  border: 3px solid rgb(209, 255, 118);
+}
+a:hover, a:active {
+  color: red;
+}

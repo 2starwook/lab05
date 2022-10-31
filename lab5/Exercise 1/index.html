@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Validator</title>
+</head>
+  <div>
+    <label for="pass1">Password</label>
+    <input type="password" id="pass1" name="password">
+  </div>
+
+  <div>
+    <label for="pass2">Password (To verify):</label>
+    <input type="password" id="pass2" name="password" minlength="8" required>
+  </div>
+
+  <input type="submit" value="Validate" onclick="verify()">
+  </body>
+</html>

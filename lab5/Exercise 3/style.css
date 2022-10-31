@@ -1,0 +1,16 @@
+p.biography {
+  background-color: gray;
+  color: white;
+  font-family: arial;
+  font-size: 12pt;
+}
+
+a:hover {
+  background-color: red;
+  color: blue;
+}
+
+body{
+  background-image: url(dogecoin.png); background-size: 100%; 
+  background-repeat: no-repeat; background-attachment: fixed; 
+}
